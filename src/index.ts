@@ -1,7 +1,14 @@
 import { readFileSync } from "fs";
 
+
+
+interface Person {
+  
+}
+
+
 function getStatistics():number {
-  const persons = JSON.parse(readFileSync("./persons.json").toString());
+  const persons:Person[] = JSON.parse(readFileSync("./persons.json").toString());
   return 0
 }
 
