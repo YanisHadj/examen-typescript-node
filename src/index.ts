@@ -33,6 +33,7 @@ function getStatistics():StatisticsResult {
 }
 
 
+
 function displayResult() {
   console.log(getStatistics());
 }
