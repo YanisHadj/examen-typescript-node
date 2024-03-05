@@ -26,7 +26,6 @@ function getStatistics():StatisticsResult {
     throw new Error("Le contenu de persons.json n'est pas un tableau.");
   }
 
-  
   let totalAge = 0;
   let totalHeight = 0;
 
